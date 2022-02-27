@@ -1,0 +1,19 @@
+Player = "Burgado68"
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool"),
+    [2] = {
+        ["p"] = Vector3.new(1780.5340576171875, 74.29534912109375, 79.37002563476562),
+        ["pid"] = 1,
+        ["part"] = game:GetService("Players")[Player].Character.Head,
+        ["d"] = 9.619646072387695,
+        ["maxDist"] = 9.520326614379883,
+        ["h"] = game:GetService("Players")[Player].Character.Humanoid,
+        ["m"] = Enum.Material.SmoothPlastic,
+        ["sid"] = 9,
+        ["t"] = 0.5938760416416129,
+        ["n"] = Vector3.new(0.2849847972393036, -3.6158598959445953e-07, 0.9585320949554443)
+    }
+}
+
+game:GetService("ReplicatedStorage").WeaponsSystem.Network.WeaponHit:FireServer(unpack(args))

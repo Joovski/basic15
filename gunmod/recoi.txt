@@ -1,0 +1,2 @@
+game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Configuration.RecoilMin.Value = 0
+game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Configuration.RecoilMax.Value = 0

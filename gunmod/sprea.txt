@@ -1,0 +1,1 @@
+game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Configuration.MaxSpread.Value = 0

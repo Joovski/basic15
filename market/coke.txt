@@ -1,0 +1,2 @@
+local clickdetector = game:GetService("Workspace").Tindahan["Buy Coke"].Part.ClickDetector
+fireclickdetector(clickdetector)

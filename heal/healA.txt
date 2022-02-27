@@ -1,0 +1,15 @@
+if _G.Connection and #_G.Connection > 0 then
+     for i,v in pairs(_G.Connection) do
+         v:Disconnect()
+     end
+  end
+  _G.Connection = {}
+  table.insert(_G.Connection,game:GetService("RunService").Stepped:Connect(function()
+     local args = {
+          [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+          [2] = game:GetService("Players").LocalPlayer.Backpack.Bandage.Animation,
+          [3] = game:GetService("Players").LocalPlayer.Backpack.Bandage
+      }
+      
+      game:GetService("ReplicatedStorage").Heal.Heal:FireServer(unpack(args))      
+  end))

@@ -1,0 +1,4 @@
+while true do
+wait(1) 
+fireproximityprompt(game:GetService("Workspace")["711 Shop"]["7/11"]["Job System"].ProximityPrompt)
+end

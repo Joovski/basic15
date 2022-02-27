@@ -1,0 +1,1 @@
+game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Configuration.ShotCooldown.Value = 0.0001

@@ -1,0 +1,4 @@
+while true do
+wait(3) 
+fireproximityprompt(game:GetService("Workspace").RobShack.Money.BANKROBPROX)
+end

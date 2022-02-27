@@ -1,0 +1,4 @@
+game:GetService"RunService".RenderStepped:Connect(function()
+game:GetService("Players").LocalPlayer.HungerVal.Value = 100
+game:GetService("Players").LocalPlayer.ThirstVal.Value = 100
+end)
